@@ -1,8 +1,7 @@
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  
+
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -15,17 +14,34 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-
+@media (min-width: 768px)
+{
+ .navbar-brand {
+    margin-left: -15px;
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+}
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 0px;
+}
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("/bricoleur.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
+
   padding-bottom: 8rem;
+  height: 700px;;
 }
 
 header.masthead .overlay {
@@ -39,7 +55,7 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 50px;
 }
 
 @media (min-width: 768px) {
@@ -48,7 +64,8 @@ header.masthead h1 {
     padding-bottom: 12rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 50px;
+    color: white;
   }
 }
 
@@ -127,4 +144,71 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+
+/*Email  js */
+.cd-form {
+  position: relative;
+}
+
+.cd-form .cd-loading {
+  /* loading bar */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3%;
+  width: 100%;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  visibility: hidden;
+  transition: transform 3s;
+  background-color: red;
+}
+
+.cd-form.is-submitted .cd-loading {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.cd-email {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  transition: bottom 0.3s, background-color 0.3s;
+  z-index: 1;
+  background-color: red;
+}
+
+.is-active .cd-email {
+  bottom: 50%;
+  background-color: red;
+}
+
+.cd-submit {
+  top: 50%;
+  /* hidden by default */
+  display: none;
+  transition: background-color 0.2s;
+  z-index: 2;
+}
+
+.is-active .cd-submit {
+  display: block;
+  animation: cd-bounce-in ease-out 0.4s;
+}
+
+@keyframes cd-bounce-in {
+  0% {
+    top: 100%;
+  }
+
+  60% {
+    top: 45%;
+  }
+
+  100% {
+    top: 50%;
+  }
 }
