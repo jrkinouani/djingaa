@@ -14,18 +14,14 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-@media (min-width: 768px)
-{
- .navbar-brand {
+
+ .navbar-default .navbar-brand {
     margin-left: -15px;
     font-size: 40px;
     color: black;
     font-weight: 800;
 }
-}
-.navbar-default .navbar-brand {
-    color: black;
-}
+
 .navbar {
     position: relative;
     min-height: 60px;
