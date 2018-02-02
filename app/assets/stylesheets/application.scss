@@ -43,15 +43,25 @@ header.masthead {
 header.masthead .overlay {
   position: absolute;
   background-color: #212529;
-  height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
-}
 
+}
+h3.proposition_valeur
+{
+  color: #fff;
+  margin-top: 60px;
+  font-weight: 300;
+}
+h5.aide
+{
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
 header.masthead h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 @media (min-width: 768px) {
@@ -60,7 +70,7 @@ header.masthead h1 {
     padding-bottom: 12rem;
   }
   header.masthead h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: white;
   }
 }
@@ -77,134 +87,5 @@ header.masthead h1 {
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
-  }
-}
-
-.features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.features-icons .features-icons-item {
-  max-width: 20rem;
-}
-
-.features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
-}
-
-.features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
-}
-
-.features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
-}
-
-.testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-.testimonials .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-
-.call-to-action {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
-
-footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-
-/*Email  js */
-.cd-form {
-  position: relative;
-}
-
-.cd-form .cd-loading {
-  /* loading bar */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 3%;
-  width: 100%;
-  transform-origin: 0 50%;
-  transform: scaleX(0);
-  visibility: hidden;
-  transition: transform 3s;
-  background-color: red;
-}
-
-.cd-form.is-submitted .cd-loading {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-.cd-email {
-  top: 0;
-  left: 0;
-  width: 100%;
-  bottom: 0;
-  transition: bottom 0.3s, background-color 0.3s;
-  z-index: 1;
-  background-color: red;
-}
-
-.is-active .cd-email {
-  bottom: 50%;
-  background-color: red;
-}
-
-.cd-submit {
-  top: 50%;
-  /* hidden by default */
-  display: none;
-  transition: background-color 0.2s;
-  z-index: 2;
-}
-
-.is-active .cd-submit {
-  display: block;
-  animation: cd-bounce-in ease-out 0.4s;
-}
-
-@keyframes cd-bounce-in {
-  0% {
-    top: 100%;
-  }
-
-  60% {
-    top: 45%;
-  }
-
-  100% {
-    top: 50%;
   }
 }
