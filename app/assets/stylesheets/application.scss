@@ -20,12 +20,22 @@ h6 {
     font-size: 40px;
     color: black;
     font-weight: 800;
+
 }
 
 .navbar {
     position: relative;
     min-height: 60px;
     margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h5.nav_aide
+{
+  color: black;
+  font-size: 23px;
+  font-weight: 300;
+  margin-right: 15px;
 }
 header.masthead {
   position: relative;
@@ -37,7 +47,7 @@ header.masthead {
   background-size: cover;
 
   padding-bottom: 8rem;
-  height: 700px;;
+  height: 800px;
 }
 
 header.masthead .overlay {
@@ -46,7 +56,11 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-
+  opacity: 0.3;
+}
+#content_value
+{
+    margin-top: 80px;
 }
 h3.proposition_valeur
 {
@@ -54,12 +68,17 @@ h3.proposition_valeur
   margin-top: 60px;
   font-weight: 300;
 }
+#nav.btn.btn-primary
+{
+  height: 50px;
+}
 h5.aide
 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: normal;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
 }
+
 header.masthead h1 {
   font-size: 100px;
 }
@@ -74,6 +93,7 @@ header.masthead h1 {
     color: white;
   }
 }
+
 
 .showcase .showcase-text {
   padding: 3rem;
