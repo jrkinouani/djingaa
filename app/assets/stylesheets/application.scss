@@ -38,7 +38,7 @@ h5.nav_aide
   margin-right: 15px;
 }
 header.masthead {
-  position: relative;
+  position:relative;
   background-color: #343a40;
   background: url("/bricoleur.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -48,6 +48,7 @@ header.masthead {
 
   padding-bottom: 8rem;
   height: 800px;
+  
 }
 
 header.masthead .overlay {
