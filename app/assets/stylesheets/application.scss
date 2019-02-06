@@ -5,15 +5,6 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
 
  .navbar-default .navbar-brand {
     margin-left: -15px;
@@ -32,6 +23,23 @@ h6 {
     background-color: #19a197;
     border-color: #19a197;
 }
+.col-xl-9.mx-auto
+{
+  font-size: 50px;
+  line-height: 50px;
+}
+span.baseline
+{
+
+    color: #FAF607;
+    font-weight: 500;
+}
+span.baseline_next
+{
+    font-weight: 500;
+    color: #fff;
+}
+
 h5.nav_aide
 {
   color: black;
@@ -83,10 +91,6 @@ h5.aide
   font-weight: bold;
 }
 
-header.masthead h1 {
-  font-size: 30px;
-  color: #fff;
-}
 
 @media (min-width: 768px) {
   header.masthead {
@@ -94,8 +98,8 @@ header.masthead h1 {
     padding-bottom: 12rem;
   }
   header.masthead h1 {
-    font-size: 70px;
-    color: white;
+    font-size: 50px;
+
   }
 }
 .showcase .showcase-text {
