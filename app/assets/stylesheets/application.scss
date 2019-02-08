@@ -25,18 +25,18 @@ body {
 }
 .col-xl-9.mx-auto
 {
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 500;
 }
 span.baseline
 {
-
-    color: #FAF607;
-    font-weight: 500;
+  font-size: 70px;
+  color: #FAF607
 }
 span.baseline_next
 {
-    font-weight: 500;
+    font-size:70px;
     color: #fff;
 }
 
@@ -75,10 +75,12 @@ header.masthead .overlay {
 }
 h3.proposition_valeur
 {
-  color: #fff;
-  margin-top: 60px;
-  font-weight: 300;
-  font-family: OpenSans-Light;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight:200;
 }
 #nav.btn.btn-primary
 {
@@ -96,10 +98,6 @@ h5.aide
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
-  }
-  header.masthead h1 {
-    font-size: 50px;
-
   }
 }
 .showcase .showcase-text {
@@ -122,6 +120,19 @@ h5.aide
   .col-xl-9.mx-auto
   {
     margin-top: 100px;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 70px;
+    color: red;
+  }
+  span.baseline_next
+  {
+      font-size:70px;
+      color: #fff;
   }
 
 }
@@ -129,8 +140,20 @@ h5.aide
 {
   .col-xl-9.mx-auto
   {
-    margin-top: 200px;
-    }
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 40px;
+    color:  #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:40px;
+      color: #fff;
+  }
     h3.proposition_valeur
     {
       color: #fff;
@@ -152,12 +175,51 @@ h5.aide
       margin-left: 15px;
       margin-right: 15px;
     }
+    .col-xl-9.mx-auto
+    {
+      line-height: 30px;
+      font-weight: 500;
+    }
+    span.baseline
+    {
+      font-size: 20px!important;
+      color: #FAF607
+    }
+    span.baseline_next
+    {
+        font-size:20px;
+        color: #fff;
+    }
 }
 @media (max-width: 475px)
 {
   .col-xl-9.mx-auto
   {
-    margin-top: 180px;
+    margin-top: 150px;
+    }
+    h3.proposition_valeur
+    {
+      color: #fff;
+      margin-top: 30px;
+      font-weight: 300;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .col-xl-9.mx-auto
+    {
+          margin-top: 150px;
+      line-height: 32px;
+      font-weight: 500;
+    }
+    span.baseline
+    {
+      font-size: 40px!important;
+      color: #FAF607
+    }
+    span.baseline_next
+    {
+        font-size:40px;
+        color: #fff;
     }
 }
 .link_about
