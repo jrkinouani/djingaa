@@ -16,7 +16,22 @@
   font-weight: 800;
   font-family: "african";
 }
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    background-image: none;
+    border: black;
+    border-radius: 4px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    margin-top: 10px;
+}
 .navbar {
     position: fixed;
     min-height: 60px;
@@ -25,6 +40,10 @@
     padding-bottom: 15px;
     background-color: #19a197;
     border-color: #19a197;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
 }
 .col-xl-9.mx-auto
 {
