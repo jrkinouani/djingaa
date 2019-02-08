@@ -114,8 +114,79 @@ h5.aide
   font-size: 23px;
   font-weight: bold;
 }
-
-@media (min-width:1200px)and (max-width: 2000px)
+@media screen and (min-width: 2000px) {
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
+@media (min-width:1300px)
 {
   .col-xl-9.mx-auto
   {
