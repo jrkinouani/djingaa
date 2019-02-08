@@ -156,12 +156,12 @@ h5.aide
     background-size: cover;
     margin-top: 40px;
     padding-bottom: 8rem;
-    height: 800px;
+    height: 1100px;
 
   }
   .col-xl-9.mx-auto
   {
-    margin-top: 150px;
+    margin-top: 200px;
     line-height: 40px;
     font-weight: 500;
   }
@@ -231,10 +231,13 @@ h5.aide
       color: #fff;
   }
 }
-/*@media (min-width: 768px) {
+@media (min-width: 1200px) {
+  header.masthead{
+    margin-top: 5px;
+  }
   .col-xl-9.mx-auto
   {
-    margin-top: 150px;
+    margin-top: 250px;
     line-height: 40px;
     font-weight: 500;
   }
@@ -248,7 +251,28 @@ h5.aide
       font-size:50px;
       color: #fff;
   }
-}*/
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  header.masthead{
+    margin-top: 5px;
+  }
+  .col-xl-9.mx-auto
+  {
+    margin-top: 200px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px)
 
