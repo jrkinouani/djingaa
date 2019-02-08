@@ -115,6 +115,19 @@ h5.aide
   font-weight: bold;
 }
 @media screen and (min-width: 2000px) {
+  header.masthead {
+    position:relative;
+    background-color: #343a40;
+    background: url("/bricoleur.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 40px;
+    padding-bottom: 8rem;
+    height: 1100px;
+
+  }
   .col-xl-9.mx-auto
   {
     margin-top: 150px;
@@ -133,6 +146,19 @@ h5.aide
   }
 }
 @media screen and (min-width: 1400px) {
+  header.masthead {
+    position:relative;
+    background-color: #343a40;
+    background: url("/bricoleur.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 40px;
+    padding-bottom: 8rem;
+    height: 800px;
+
+  }
   .col-xl-9.mx-auto
   {
     margin-top: 150px;
