@@ -115,7 +115,25 @@ h5.aide
   font-weight: bold;
 }
 
-
+@media (min-width:1200px)
+{
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
+  }
+}
 @media (min-width: 768px) {
   .col-xl-9.mx-auto
   {
