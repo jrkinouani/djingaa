@@ -1,17 +1,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-body {
+/*body {
 
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}*/
+@font-face
+{
+    font-family: "african";
+    src: url("/assets/african");
 }
 
-
- .navbar-default .navbar-brand {
-    margin-left: -15px;
-    font-size: 40px;
-    color: black;
-    font-weight: 800;
-
+.navbar-default .navbar-brand {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  font-family: "african";
 }
 
 .navbar {
@@ -95,53 +98,54 @@ h5.aide
 
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+  .col-xl-9.mx-auto
+  {
+    margin-top: 150px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 50px;
+    color: #FAF607;
+  }
+  span.baseline_next
+  {
+      font-size:50px;
+      color: #fff;
   }
 }
-.showcase .showcase-text {
-  padding: 3rem;
-}
 
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
-}
 @media (min-width: 768px) and (max-width: 991px)
 
 {
   .col-xl-9.mx-auto
   {
-    margin-top: 100px;
-    font-size: 70px;
-    line-height: 70px;
+    margin-top: 150px;
+    line-height: 40px;
     font-weight: 500;
   }
   span.baseline
   {
-    font-size: 70px;
-    color: red;
+    font-size: 50px;
+    color: #FAF607;
   }
   span.baseline_next
   {
-      font-size:70px;
+      font-size:50px;
       color: #fff;
   }
 
 }
 @media (min-width: 576px) and (max-width: 767px)
 {
+  header.masthead{
+    margin-top: 20px;
+  }
   .col-xl-9.mx-auto
   {
     margin-top: 150px;
-    line-height: 40px;
+    line-height: 35px;
     font-weight: 500;
   }
   span.baseline
@@ -163,39 +167,55 @@ h5.aide
 }
 @media (min-width: 475px) and (max-width: 576px)
 {
-  .col-xl-9.mx-auto
-  {
-    margin-top: 200px;
-    }
-    h3.proposition_valeur
-    {
-      color: #fff;
-      margin-top: 30px;
-      font-weight: 300;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-    .col-xl-9.mx-auto
-    {
-      line-height: 30px;
-      font-weight: 500;
-    }
-    span.baseline
-    {
-      font-size: 20px!important;
-      color: #FAF607
-    }
-    span.baseline_next
-    {
-        font-size:20px;
-        color: #fff;
-    }
+  .navbar-default .navbar-brand {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+    font-family: "african";
+  }
+header.masthead{
+  margin-top: 5px;
 }
-@media (max-width: 475px)
-{
+
+  h3.proposition_valeur
+  {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   .col-xl-9.mx-auto
   {
     margin-top: 150px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+  span.baseline
+  {
+    font-size: 40px!important;
+    color: #FAF607
+  }
+  span.baseline_next
+  {
+      font-size:40px;
+      color: #fff;
+  }
+}
+@media (max-width: 475px)
+{
+    .navbar-default .navbar-brand {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 800;
+      font-family: "african";
+    }
+  header.masthead{
+    margin-top: 5px;
+  }
+  .col-xl-9.mx-auto
+  {
+    margin-top: 0px;
     }
     h3.proposition_valeur
     {
