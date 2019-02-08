@@ -16,6 +16,10 @@
   font-weight: 800;
   font-family: "african";
 }
+.navbar-default .navbar-brand:hover {
+
+  color: #fff;
+}
 .navbar-toggle {
     position: relative;
     float: right;
@@ -44,6 +48,7 @@
 .navbar-default .navbar-nav > li > a
 {
     color: #fff;
+    font-size: 18px;
 }
 .col-xl-9.mx-auto
 {
@@ -104,9 +109,15 @@ h3.proposition_valeur
     letter-spacing: 1px;
     font-weight:200;
 }
-#nav.btn.btn-primary
+.btn-primary
 {
-  height: 50px;
+    padding: 10px 16px;
+    font-size: 23px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    height: 60px;
+    background-color: #19a197;
+    border-color: #19a197;
 }
 h5.aide
 {
@@ -454,8 +465,8 @@ header.masthead{
         color: #fff;
     }
 }
-.link_about
+a.link_about:hover
 {
     font-size: 18px;
-    color: black;
+    color: #fff!important;
 }
