@@ -104,10 +104,11 @@ h3.proposition_valeur
 {
     color: #fff;
     margin-top: 60px;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 1px;
     font-weight:200;
+    text-transform: uppercase;
 }
 .btn-primary
 {
@@ -472,8 +473,10 @@ a.link_about:hover
 }
 main.container
 {
-    
+
     background-color: #56BDDD;
+    margin-top: 100px;
+    margin-bottom: 130px;
 }
 .jumbotron
 {
@@ -498,4 +501,24 @@ h3.text-comment
     font-size: 18px;
     color: #fff;
     margin-bottom:50px;
+}
+section
+{
+    margin-bottom: 100px;
+    background: #f1f1f1;
+}
+h2.title-comment
+{
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: black
+}
+p.title-qualifacation
+{
+    text-transform: uppercase;
+}
+u
+{
+    color: #56BDDD;
 }
