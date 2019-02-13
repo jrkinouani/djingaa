@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   root :to => 'pages#welcome'
   get "/about" => "pages#about"
   get "/comment-ca-marche" => "pages#comment"
