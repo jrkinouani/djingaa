@@ -4,18 +4,14 @@
 
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }*/
-@font-face
-{
-    font-family: "african";
-    src: url("/assets/african");
-}
 
 .navbar-default .navbar-brand {
   font-size: 50px;
   color: #fff;
   font-weight: 800;
-  font-family: "african";
-}
+
+font-family: 'Ubuntu', sans-serif;
+  }
 .navbar-default .navbar-brand:hover {
 
   color: #fff;
@@ -49,6 +45,7 @@
 {
     color: #fff;
     font-size: 18px;
+    font-family: 'Vollkorn', Georgia, Times, serif;
 }
 .col-xl-9.mx-auto
 {
@@ -103,12 +100,14 @@ header.masthead .overlay {
 h3.proposition_valeur
 {
     color: #fff;
+    margin-bottom: 60px;
     margin-top: 60px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 1px;
-    font-weight:200;
+    font-weight:bolder;
     text-transform: uppercase;
+    font-family: 'Vollkorn', Georgia, Times, serif;
 }
 .btn-primary
 {
@@ -119,6 +118,17 @@ h3.proposition_valeur
     height: 60px;
     background-color: #19a197;
     border-color: #19a197;
+}
+.btn-primary:hover
+{
+    padding: 10px 16px;
+    font-size: 23px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    height: 60px;
+    background-color: #FAF607;
+    border-color: #FAF607;
+      color: black;
 }
 h5.aide
 {
@@ -131,7 +141,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   header.masthead {
     position:relative;
@@ -156,11 +165,13 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -168,7 +179,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   header.masthead {
     position:relative;
@@ -193,11 +203,13 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -205,7 +217,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   .col-xl-9.mx-auto
   {
@@ -217,11 +228,13 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
   }
 }
 @media screen and (min-width: 1900px) {
@@ -229,7 +242,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   .col-xl-9.mx-auto
   {
@@ -241,11 +253,13 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
   }
 }
 @media (min-width:1300px)
@@ -254,7 +268,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   .col-xl-9.mx-auto
   {
@@ -266,11 +279,13 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
   }
 }
 @media (min-width: 1200px) {
@@ -278,7 +293,6 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
   }
   header.masthead{
     margin-top: 5px;
@@ -287,17 +301,21 @@ h5.aide
   {
     margin-top: 250px;
     line-height: 40px;
-    font-weight: 500;
+    font-weight: 800;
   }
   span.baseline
   {
-    font-size: 50px;
+    font-size: 70px;
     color: #FAF607;
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      font-family: 'Vollkorn', Georgia, Times, serif;
+      letter-spacing: 5px;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -305,7 +323,7 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
+
   }
   header.masthead{
     margin-top: 5px;
@@ -320,11 +338,15 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      font-family: 'Vollkorn', Georgia, Times, serif;
+      letter-spacing: 5px;
   }
 }
 
@@ -335,7 +357,7 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
+
   }
   .col-xl-9.mx-auto
   {
@@ -347,11 +369,15 @@ h5.aide
   {
     font-size: 50px;
     color: #FAF607;
+    letter-spacing: 5px;
+    font-family: 'Vollkorn', Georgia, Times, serif;
   }
   span.baseline_next
   {
       font-size:50px;
       color: #fff;
+      letter-spacing: 5px;
+      font-family: 'Vollkorn', Georgia, Times, serif;
   }
 
 }
@@ -361,7 +387,7 @@ h5.aide
     font-size: 50px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
+
   }
   header.masthead{
     margin-top: 20px;
@@ -376,11 +402,15 @@ h5.aide
   {
     font-size: 40px;
     color:  #FAF607;
+    letter-spacing: 5px;
+    font-family: 'Vollkorn', Georgia, Times, serif;
   }
   span.baseline_next
   {
       font-size:40px;
       color: #fff;
+      letter-spacing: 5px;
+      font-family: 'Vollkorn', Georgia, Times, serif;
   }
     h3.proposition_valeur
     {
@@ -395,7 +425,7 @@ h5.aide
     font-size: 40px;
     color: #fff;
     font-weight: 800;
-    font-family: "african";
+
   }
 header.masthead{
   margin-top: 5px;
@@ -418,12 +448,16 @@ header.masthead{
   span.baseline
   {
     font-size: 40px!important;
-    color: #FAF607
+    color: #FAF607;
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    letter-spacing: 5px;
   }
   span.baseline_next
   {
       font-size:40px;
       color: #fff;
+      font-family: 'Vollkorn', Georgia, Times, serif;
+      letter-spacing: 5px;
   }
 }
 @media (max-width: 475px)
@@ -432,7 +466,7 @@ header.masthead{
       font-size: 40px;
       color: #fff;
       font-weight: 800;
-      font-family: "african";
+
     }
   header.masthead{
     margin-top: 5px;
@@ -451,19 +485,23 @@ header.masthead{
     }
     .col-xl-9.mx-auto
     {
-          margin-top: 150px;
-      line-height: 32px;
+      margin-top: 150px;
+      line-height: 21px;
       font-weight: 500;
     }
     span.baseline
     {
       font-size: 40px!important;
-      color: #FAF607
+      color: #FAF607;
+      font-family: 'Vollkorn', Georgia, Times, serif;
+      letter-spacing: 5px;
     }
     span.baseline_next
     {
         font-size:40px;
         color: #fff;
+        font-family: 'Vollkorn', Georgia, Times, serif;
+        letter-spacing: 5px;
     }
 }
 a.link_about:hover
@@ -481,6 +519,7 @@ main.container
 .jumbotron
 {
     background-color: #56BDDD;
+    font-family: 'Vollkorn', Georgia, Times, serif;
 }
 h2.text-center
 {
@@ -489,6 +528,7 @@ h2.text-center
   line-height: 46px;
   color: #fff;
   margin-bottom:50px;
+
 }
 i.fas.fa-file-alt, i.fas.fa-search ,i.fas.fa-calendar-check ,i.fas.fa-rocket
 {
@@ -501,22 +541,36 @@ h3.text-comment
     font-size: 18px;
     color: #fff;
     margin-bottom:50px;
+    font-family: 'Vollkorn', Georgia, Times, serif;
 }
 section
 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background: #f1f1f1;
+    padding-bottom: 50px;
+}
+section.content-mission
+{
+    margin-bottom: 100px;
+    background: #fff;
 }
 h2.title-comment
 {
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 40px;
-    color: black
+    color: black;
+    font-family: 'Vollkorn', Georgia, Times, serif;
+}
+p.text-process
+{
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    font-size: 18px;
 }
 p.title-qualifacation
 {
     text-transform: uppercase;
+    font-family: 'Vollkorn', Georgia, Times, serif;
 }
 u
 {
