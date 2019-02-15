@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row" style="margin-top:100px;">
+    <div class="col-md-12">
+      <div class="text-center">
+        <h3>remplissez votre devis</h3>
+      </div>
+    </div>
+      <%= form_for @estimate do |f| %>
+      <div class="col-md-6">
+        <div class="text-center">
+          <h3>Informations sur les travaux</h3>
+        </div>
+
+        <div class="col-md-6">
+            <label>Ville des travaux</label>
+            <%= f.text_field :cityworks, class: "form-control", placeholder: "Code postal" %>
+          <!--<%= f.select :cityworks, options_for_select([["Select One", ""], "Cell", "Work", "Office", "Home", "Other"]),{},class: "form-control", placeholder: "" %>-->
+        </div>
+        <div class="col-md-6">
+            <label>Type de bâtiment</label>
+          <%= f.select :categoryhouse , options_for_select([ "Maison individuelle", "Appartement", "Bâtiment", "Autres"]),{}, class: "form-control", placeholder: "Type de bâtiment" %>
+        </div>
+
+        <div class="col-md-6">
+            <label>Quels domaines de travaux</label>
+          <%= f.select :category , options_for_select([ "Salle de bain", "Cuisine", "Peinture", "Autres"]),{}, class: "form-control", placeholder: "Quels domaine de trvaux" %>
+        </div>
+
+        <div class="col-md-6">
+            <label>Délai des vos travaux</label>
+            <%= f.select :categoryhouse , options_for_select([ "Maison individuelle", "Appartement", "Bâtiment", "Autres"]),{}, class: "form-control", placeholder: "Type de bâtiment" %>
+        </div>
+
+      </div>
+
+      <div class="col-md-6">
+        <div class="text-center">
+          <h3>Informations personnelles</h3>
+        </div>
+        <div class="col-md-6">
+            <label>Votre prénom</label>
+          <%= f.text_field :firstname, class: "form-control", placeholder: "Dimitri" %>
+        </div>
+        <div class="col-md-6">
+            <label>Votre nom</label>
+          <%= f.text_field :lastname, class: "form-control", placeholder: "Payet" %>
+        </div>
+      </div>
+
+        <div class="">
+          <div class="actions">
+            <%= f.submit "J'enregistre mon devis", class:"btn btn-primary" %>
+          </div>
+        </div>
+      <% end %>
+  </div>
+</div>

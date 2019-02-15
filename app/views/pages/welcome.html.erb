@@ -11,7 +11,7 @@
            Leur proposer les plus beaux projets, c’est votre mission.
         </h3>
       </div>
-        <button class="btn btn-primary btn-lg"><i class="fa fa-circle-o-notch fa-spin"></i>Faire une demande de travaux</button>
+       <%= button_to "Faire une demande de travaux", new_estimate_path, class: "btn btn-primary btn-lg", :method => :get  %>
     </div>
   </div>
 </header>
