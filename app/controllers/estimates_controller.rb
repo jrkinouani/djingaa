@@ -11,8 +11,9 @@ class EstimatesController < ApplicationController
   def create
     @estimate = Estimate.new(estimate_params)
     if @estimate.save
-      redirect_to root_path
+      redirect_to merci_pour_le_devis_path
     else
+      flash[:danger] = "Désolé vous avez mal rempli le formulaire"
       render 'new'
     end
 

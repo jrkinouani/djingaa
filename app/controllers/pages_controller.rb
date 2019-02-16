@@ -9,4 +9,8 @@ class PagesController < ApplicationController
   def comment
 
   end
+
+  def merci
+
+  end
 end
