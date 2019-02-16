@@ -4,7 +4,6 @@
     <div class="col-md-12">
       <div class="text-center">
         <h3>remplissez votre devis</h3>
-        <h1 class="msg_flash"><%= flash[:danger ]%></h1>
       </div>
     </div>
       <%= form_for @estimate do |f| %>
@@ -35,7 +34,7 @@
 
         <div class="col-md-12">
             <label>Indiquez toutes les informations complémentaires importantes <em style="color:red;">*</em></label>
-            <%= f.text_area  :description ,  rows:"6",class: "form-control", placeholder: "Pour obtenir un devis plus précis,merci d'indiquer le plus d'informations possible." %>
+            <%= f.text_area :desc ,  rows:"6",class: "form-control", placeholder: "Pour obtenir un devis plus précis,merci d'indiquer le plus d'informations possible." %>
             <h6><em style="color:red;">Informations obligatoires</em></h6>
         </div>
 

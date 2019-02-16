@@ -27,6 +27,6 @@ class EstimatesController < ApplicationController
 
   def estimate_params
     params.require(:estimate).permit(:firstname, :lastname,:email,
-      :cityworks,:categoryhouse ,:category,:description ,:time ,:who ,:phone)
+      :cityworks,:categoryhouse ,:category,:desc ,:time ,:who ,:phone)
   end
 end
