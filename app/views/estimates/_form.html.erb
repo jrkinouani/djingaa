@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-12">
+      <div class="text-center">
+        <h3>remplissez votre devis</h3>
+      </div>
+    </div>
+      <%= form_for @estimates do |f| %>
+        <div class="col-md-6">
+          <div class="form-group">
+              <label>Titre du livre</label>
+            <%= f.text_field :firstname, class: "form-control", placeholder: "Titre de votre livre 30 lettres maximum" %>
+          </div>
+      </div>
+      <div class="col-md-6">
+
+      </div>
+      <div class="actions">
+          <%= f.submit "J'enregistre mon devis", class:"btn btn-primary" %>
+        </div>
+
+      <% end %>
+  </div>
+</div>
