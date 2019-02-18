@@ -13,4 +13,8 @@ class PagesController < ApplicationController
   def merci
 
   end
+
+  def ventes
+
+  end
 end
