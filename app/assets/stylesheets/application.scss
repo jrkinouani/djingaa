@@ -57,9 +57,15 @@
 }
 .col-xl-9.mx-auto
 {
-  font-size: 70px;
-  line-height: 70px;
-  font-weight: 500;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.drapeau
+{
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
 }
 span.baseline
 {
@@ -690,5 +696,5 @@ article
     justify-content: center;
     padding: 50px;
     z-index: 199;
-  
+
 }
