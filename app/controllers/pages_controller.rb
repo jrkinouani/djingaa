@@ -17,4 +17,8 @@ class PagesController < ApplicationController
   def ventes
 
   end
+
+  def faq
+
+  end
 end
