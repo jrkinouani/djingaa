@@ -21,4 +21,7 @@ class PagesController < ApplicationController
   def faq
 
   end
+  def solutionsentreprises
+
+  end
 end

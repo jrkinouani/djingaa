@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet"  href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track'=> true %>
@@ -35,11 +35,26 @@
 
          <div id="navbar" class="navbar-collapse collapse">
            <ul class="nav navbar-nav navbar-right">
-             <!--<li class"aide"> <h5 class="nav_aide">Besoin d'aide ? 0692159993</h5> </li>-->
-             <li><%= link_to "Comment ca marche", engager_un_pro_path, :class => "link_about" %></li>
-             <!--<li><%= link_to("Comment ca marche", {:anchor=>"mon_ancre"}, :class => "link_about")%></li>-->
-             <li ><%= link_to "Qui sommes nous ?", about_path, :class => "link_about"%></li>
-             <li><a href="mailto:biblioruncontact@gmail.com" class= "link_about">Nous contacter</a></li>
+             <li><%= link_to "Accueil", root_path, :class => "link_about"%></li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Plomberie</a></li>
+                <li><a href="#">Electricité</a></li>
+                <li><a href="#">Electroménager</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><%= link_to "Solutions pour entreprise", solutionsentreprises_path, :class => "link_about" %></li>
+             <li><%= link_to "Mode d'emploi", engager_un_pro_path, :class => "link_about" %></li>
+             <li>
+                <a href="#" >
+                 <i class="fas fa-phone-volume">
+                   <b style="font-family: 'Source Sans Pro', sans-serif; color:#F62A00;">06 92 15 99 93</b>
+                 </i>
+                </a>
+              </li>
+              <li> <%= button_to "Devenir bricoleur", root_path, class: "btn btn-danger navbar-btn"  %></li>
            </ul>
 
          </div><!--/.nav-collapse -->
