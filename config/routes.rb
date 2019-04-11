@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :estimates
   root :to => 'pages#welcome'
   get "/about" => "pages#about"
-  get "/engager-un-pro" => "pages#engagerunpro"
+  get "/mode-emploi" => "pages#modeemploi"
   get "/merci-pour-le-devis" => "pages#merci"
   get "/conditiondeventes" => "pages#ventes"
   get "/faq" => "pages#faq"
