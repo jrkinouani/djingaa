@@ -1,0 +1,63 @@
+<header class="masthead text-white text-center" style="background-image: url(/henry.jpg);">
+  <div class="container-fluid">
+    <div class="row" id="content_value">
+      <div class="col-xl-9 mx-auto">
+          <span class="baseline">Gagnez de l'argent  <br>en bricolant librement</span> <br>-->
+        <!--<span class="baseline_next hidden-xs">les meilleurs professionnels <br> du bâtiment à la Reunion </span>-->
+        <h3 class="proposition_valeur"><!--Trouvez les experts pour vos travaux à la Reunion, <br> c’est notre métier. <br>
+           Leur proposer des travaux à réaliser, c’est votre mission.-->
+        </h3>
+      </div>
+       <%= button_to "Demandez un devis gratuit", new_estimate_path, class: "btn btn-primary btn-lg", :method => :get,  style: "margin-bottom:180px"%>
+       <!--<h3 class="proposition_valeur">Trouvez les experts pour réaliser vos travaux  <br>à la Reunion, c’est notre métier. <br>
+          Leur proposer des travaux à réaliser, c’est votre mission.
+       </h3>-->
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container-fluid" style="max-width: 1080px;">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-6">
+      <div class="text-center" style="margin-top:100px;">
+        <h3 class="how">Comment ça marche</h3>
+      <ul style="display:inline">
+        <li style="list-style:none;float:left;text-decoration:none">
+          <img src="/number-one.png" alt="" class="img.how" >
+        </li>
+        <li style="list-style:none">
+          <h4 class="text_how"> Djingaa vous envoi des devis, vous acceptez ou pas les missions</h4>
+        </li>
+      </ul>
+        <%= link_to "EN SAVOIR PLUS", mode_emploi_path, class:"plus" %>
+        </div>
+    </div>
+
+    <div class="col-md-offset-3 col-md-6">
+      <div class="text-center" style="margin-top:100px;">
+        <ul class="how-list "style="display:inline;">
+          <li style="list-style:none;float:left;text-decoration:none">  <img src="/number-two.png" alt="" class="img.how" ></li>
+          <li style="list-style:none">
+            <h4 class="text_how">Travaillez où vous voulez, quand vous voulez, au prix que vous voulez </h4>
+          </li>
+        </ul>
+      <%= link_to "EN SAVOIR PLUS", mode_emploi_path, class:"plus" %>
+      </div>
+    </div>
+
+    <div class="col-md-offset-3 col-md-6">
+      <div class="text-center" style="margin-top:100px;">
+        <ul class="how-list">
+         <li style="list-style:none;float:left;text-decoration:none">
+         <img src="/number-three.png" alt="" class="img.how">
+         </li>
+         <li style="list-style:none">
+           <h4 class="text_how">Améliorez vos revenus. Vous recevez vos gains sous 48h !</h4>
+         </li>
+        </ul>
+      <%= link_to "EN SAVOIR PLUS", mode_emploi_path, class:"plus" %>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>

@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   get "/conditiondeventes" => "pages#ventes"
   get "/faq" => "pages#faq"
   get "/solutionsentreprises" => "pages#solutionsentreprises"
+  get '/inscriptionbricoleurs' => 'pages#inscriptionbricoleurs'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -24,4 +24,8 @@ class PagesController < ApplicationController
   def solutionsentreprises
 
   end
+
+  def inscriptionbricoleurs
+
+  end
 end
