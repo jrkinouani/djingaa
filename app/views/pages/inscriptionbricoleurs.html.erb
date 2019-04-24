@@ -61,10 +61,13 @@
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-offset-4 col-lg-4 ">
       <div class="text-center">
-        <h3>Notre offre</h3>
+        <h3 class="text-title-offre">Une offre unique pour tous les bricoleurs</h3>
+        <h3 class="offre">Commencez avec un mois gratuit offert</h3>
+
       </div>
+      <div class="col-lg-offset-4 col-lg-4 ">
+
         <div class="card mb-5 mb-lg-0" style="padding-top:30px;padding-bottom:30px;background-color:#F1F3CE;">
           <div class="card-body">
 
@@ -77,7 +80,9 @@
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Vous êtes payé 48h après une mission</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Abonnement mensuel</li>
             </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+            <div class="text-center">
+              <%= button_to "Je m'inscris", new_bricoleur_registration_path, class: "btn btn-primary text", :method => :get,  style: "margin-bottom:180px"%>
+            </div>
           </div>
         </div>
       </div>
