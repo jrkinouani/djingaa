@@ -28,4 +28,7 @@ class PagesController < ApplicationController
   def inscriptionbricoleurs
 
   end
+  def formulairepro
+
+  end
 end
