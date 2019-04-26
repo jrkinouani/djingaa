@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get "/solutionsentreprises" => "pages#solutionsentreprises"
   get '/inscriptionbricoleurs' => 'pages#inscriptionbricoleurs'
   get '/formulairepro' => 'pages#formulairepro'
+  get '/services' => 'pages#services'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

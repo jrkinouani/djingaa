@@ -47,7 +47,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-            <li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>
+            <!--<li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>-->
              <li><%= link_to "Mode d'emploi", mode_emploi_path, :class => "link_about" %></li>
              <li>
                 <a href="#" >
@@ -69,15 +69,15 @@
                   <li><a href="#">One more separated link</a></li>
                 </ul>
               </li>
-              <li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>
+              <!--<li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>-->
                <li><%= link_to "Mode d'emploi", mode_emploi_path, :class => "link_about" %></li>
   			      	<li> <%= button_to "Déconnexion", destroy_admin_session_path, class: "btn btn-danger navbar-btn btn-lg", :method => :delete  %></li>
   			        <li> <%= button_to "Zone admin", rails_admin_path, class: "btn btn-danger navbar-btn btn-lg", :method => :get  %></li>
 
                 <% else %>
                 <li><%= link_to "Accueil", root_path, :class => "link_about"%></li>
-                <li><%= link_to "S'inscrire",new_user_registration_path, class: "link_about" , :method => :get  %></li>
-                <li><%= link_to "Connexion ",  new_user_session_path, class: "link_about" %></li>
+                <!--<li><%= link_to "S'inscrire",new_user_registration_path, class: "link_about" , :method => :get  %></li>
+                <li><%= link_to "Connexion ",  new_user_session_path, class: "link_about" %></li>-->  
 
                 <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos services <b class="caret"></b></a>
@@ -88,7 +88,7 @@
                    <li><a href="#">One more separated link</a></li>
                  </ul>
                </li>
-               <li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>
+               <!--<li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>-->
                 <li><%= link_to "Mode d'emploi", mode_emploi_path, :class => "link_about" %></li>
                 <li>
                    <a href="#" >

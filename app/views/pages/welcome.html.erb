@@ -10,7 +10,7 @@
            Leur proposer des travaux à réaliser, c’est votre mission.-->
         </h3>
       </div>
-       <%= button_to "Demandez un devis gratuit", new_estimate_path, class: "btn btn-primary btn-lg", :method => :get  %>
+       <%= button_to "Demandez un devis gratuit", services_path, class: "btn btn-primary btn-lg", :method => :get  %>
        <!--<h3 class="proposition_valeur">Trouvez les experts pour réaliser vos travaux  <br>à la Reunion, c’est notre métier. <br>
           Leur proposer des travaux à réaliser, c’est votre mission.
        </h3>-->
@@ -112,8 +112,8 @@
       <div class="text-center">
         <img src="/handshake.png" alt=""  class="icon">
         <h2 class="avantage">Bricoleurs auditionnés</h2>
-        <h5>Tous nos bricoleurs sont audtionnés avant leur inscription sur Djingaa.
-          Un test de comptéences est également réalisé.
+        <h5>Tous nos bricoleurs sont auditionnés avant leur inscription sur Djingaa.
+          Un test de compétences est également réalisé.
         </h5>
       </div>
     </div>
@@ -121,8 +121,8 @@
     <div class="col-md-4">
       <div class="text-center">
         <img src="/euro.png" alt=""  class="icon">
-          <h2 class="avantage">Devis et prix en ligne</h2>
-          <h5>Les prix sont connus pour chaque prestation. Pas de frais supllémentaire une fois les trvaux réalisés.</h5>
+          <h2 class="avantage">Devis en ligne</h2>
+          <h5>Pas de frais supplémentaire une fois les missions réalisés.</h5>
       </div>
     </div>
 
@@ -130,7 +130,7 @@
       <div class="text-center">
         <img src="/support.png" alt=""  class="icon">
           <h2 class="avantage">Service client </h2>
-          <h5>Service client ouvert de 7h - 12h et de 14h - 17H 6jours/7 Du lunidi au Samedi</h5>
+          <h5>Service client ouvert de 7h - 12h et de 14h - 17H 6jours/7 Du lundi au Samedi</h5>
       </div>
     </div>
 
@@ -160,7 +160,7 @@
         <ul class="how-list "style="display:inline;">
           <li style="list-style:none;float:left;text-decoration:none">  <img src="/number-two.png" alt="" class="img.how" ></li>
           <li style="list-style:none">
-            <h4 class="text_how">Djingaa m'envoie des devis, je choisis et réserve un professionnel </h4>
+            <h4 class="text_how">Djingaa m'envoie des devis, je choisis et réserve un bricoleur </h4>
           </li>
         </ul>
       <%= link_to "EN SAVOIR PLUS", mode_emploi_path, class:"plus" %>
@@ -182,4 +182,13 @@
     </div>
   </div>
   </div>
+</section>
+
+<section style="background-color:#FFFFFF;">
+ <div class="container-fluid" style="max-width: 1080px;">
+   <div class="text-center" style="margin-top:60px;">
+     <h4 class="text_how">Tous les services de bricolage vous attendent</h4>
+      <%= button_to "Demander un devis gratuit", services_path, class: "btn btn-primary btn-lg", :method => :get  %>
+   </div>
+ </div>
 </section>
