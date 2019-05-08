@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 col-sm-6">
-                        <div class="pricingTable11">
+                        <div class="pricingTable11 red">
                             <img src="/icon.png" alt="" class="icon">
                             <!--<div class="pricingTable-header">
                                 <i class="fa fa-adjust"></i>
@@ -33,7 +33,7 @@
                               <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                             </div>-->
                             <div class="pricingTable-signup">
-                              <a href="#">Obtenir un devis</a>
+                              <%= button_to "Obtenir un devis", formulairebrico_path, class: "btn btn-default", :method => :get  %>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                                   <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                               </div>-->
                               <div class="pricingTable-signup">
-                                  <a href="#">Obtenir un devis</a>
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
                               </div>
                           </div>
                       </div>
@@ -57,7 +57,7 @@
                                   <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                               </div>-->
                               <div class="pricingTable-signup">
-                                <a href="#">Obtenir un devis</a>
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
                               </div>
                           </div>
                       </div>
@@ -70,7 +70,7 @@
                                   <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                               </div>-->
                               <div class="pricingTable-signup">
-                                    <a href="#">Obtenir un devis</a>
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
                               </div>
                           </div>
                       </div>
@@ -83,7 +83,7 @@
                                   <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                               </div>-->
                               <div class="pricingTable-signup">
-                                  <a href="#">Obtenir un devis</a>
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
                               </div>
                           </div>
                       </div>
@@ -95,7 +95,7 @@
                                 <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
                             </div>-->
                             <div class="pricingTable-signup">
-                                <a href="#">Obtenir un devis</a>
+                              <%= button_to "Obtenir un devis", formulaireplomberie_path, class: "btn btn-default", :method => :get  %>
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
 <section style="background-color:#FFFFFF;">
  <div class="container-fluid" style="max-width: 1080px;">
    <div class="text-center" style="margin-top:60px;">
-     <h4 class="text_how">Tous les services de bricolage vous attendent</h4>
+     <h4 class="text_how">Tous nos services de bricolage vous attendent</h4>
       <%= button_to "Demander un devis gratuit", services_path, class: "btn btn-primary btn-lg", :method => :get  %>
    </div>
  </div>

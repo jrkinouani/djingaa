@@ -35,4 +35,19 @@ class PagesController < ApplicationController
   def formulairepro
 
   end
+
+  def formulairebrico
+
+  end
+  def formulaireplomberie
+
+  end
+
+  def formulaireelectromenager
+
+  end
+
+  def formulairerenovation
+
+  end
 end

@@ -1,88 +1,88 @@
 
-   <div class="demo11" style="margin-top:50px;margin-bottom:150px;">
-      <div class="container">
-                   <div class="row">
-                     <div class="text-center">
-                         <h2 class="title_main">Nos services</h2>
-                     </div>
-                       <div class="col-md-2 col-sm-6">
-                           <div class="pricingTable11">
-                               <img src="/icon.png" alt="" class="icon">
-                               <!--<div class="pricingTable-header">
-                                   <i class="fa fa-adjust"></i>
-                                   <div class="price-value"> $10.00 <span class="month">per month</span> </div>
-                               </div>-->
-                               <h3 class="heading">Bricolage & rénovation</h3>
-                               <!--<div class="pricing-content">
-                                 <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                               </div>-->
-                               <div class="pricingTable-signup">
-                                 <a href="#">Obtenir un devis</a>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-md-2 col-sm-6">
-                             <div class="pricingTable11 red">
-                                 <img src="/power-cord.png" alt=""class="icon">
-                                 <h3 class="heading">Electricité & installation</h3>
-                                 <!--<div class="pricing-content">
-                                     <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                                 </div>-->
-                                 <div class="pricingTable-signup">
-                                     <a href="#">Obtenir un devis</a>
-                                 </div>
-                             </div>
-                         </div>
-                       <div class="col-md-2 col-sm-6">
-                             <div class="pricingTable11 red">
-                                 <img src="/washingmachine.png" alt="" class="icon">
-                                 <h3 class="heading">electromenager & Climatisation</h3>
-                                 <!--<div class="pricing-content">
-                                     <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                                 </div>-->
-                                 <div class="pricingTable-signup">
-                                   <a href="#">Obtenir un devis</a>
-                                 </div>
-                             </div>
-                         </div>
+<div class="demo11">
+            <div class="container">
+                <div class="row">
+                  <div class="text-center">
+                      <h2 class="title_main">Nos services</h2>
+                  </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="pricingTable11 red">
+                            <img src="/icon.png" alt="" class="icon">
+                            <!--<div class="pricingTable-header">
+                                <i class="fa fa-adjust"></i>
+                                <div class="price-value"> $10.00 <span class="month">per month</span> </div>
+                            </div>-->
+                            <h3 class="heading">Bricolage & rénovation</h3>
+                            <!--<div class="pricing-content">
+                              <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                            </div>-->
+                            <div class="pricingTable-signup">
+                              <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                          <div class="pricingTable11 red">
+                              <img src="/power-cord.png" alt=""class="icon">
+                              <h3 class="heading">Electricité & installation</h3>
+                              <!--<div class="pricing-content">
+                                  <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                              </div>-->
+                              <div class="pricingTable-signup">
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                              </div>
+                          </div>
+                      </div>
+                    <div class="col-md-2 col-sm-6">
+                          <div class="pricingTable11 red">
+                              <img src="/washingmachine.png" alt="" class="icon">
+                              <h3 class="heading">electromenager & Climatisation</h3>
+                              <!--<div class="pricing-content">
+                                  <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                              </div>-->
+                              <div class="pricingTable-signup">
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                              </div>
+                          </div>
+                      </div>
 
-                       <div class="col-md-2 col-sm-6">
-                             <div class="pricingTable11 red">
-                                 <img src="/swimmingpool.png" alt="" class="icon">
-                                 <h3 class="heading">Piscine  <br>et jardin</h3>
-                                 <!--<div class="pricing-content">
-                                     <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                                 </div>-->
-                                 <div class="pricingTable-signup">
-                                       <a href="#">Obtenir un devis</a>
-                                 </div>
-                             </div>
-                         </div>
-                       <div class="col-md-2 col-sm-6">
-                             <div class="pricingTable11 red">
-                               <img src="/door.png" alt="" class="icon">
+                    <div class="col-md-2 col-sm-6">
+                          <div class="pricingTable11 red">
+                              <img src="/swimmingpool.png" alt="" class="icon">
+                              <h3 class="heading">Piscine  <br>et jardin</h3>
+                              <!--<div class="pricing-content">
+                                  <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                              </div>-->
+                              <div class="pricingTable-signup">
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                              </div>
+                          </div>
+                      </div>
+                    <div class="col-md-2 col-sm-6">
+                          <div class="pricingTable11 red">
+                            <img src="/door.png" alt="" class="icon">
 
-                                 <h3 class="heading">Serrurerie, portes et fenêtres </h3>
-                                 <!--<div class="pricing-content">
-                                     <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                                 </div>-->
-                                 <div class="pricingTable-signup">
-                                     <a href="#">Obtenir un devis</a>
-                                 </div>
-                             </div>
-                         </div>
-                     <div class="col-md-2 col-sm-6">
-                           <div class="pricingTable11 red" >
-                             <img src="/tap00.png" alt=""  class="icon">
-                               <h3 class="heading">PLOMBERIE & CHAUFFAGE</h3>
-                               <!--<div class="pricing-content">
-                                   <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
-                               </div>-->
-                               <div class="pricingTable-signup">
-                                   <a href="#">Obtenir un devis</a>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+                              <h3 class="heading">Serrurerie, portes et fenêtres </h3>
+                              <!--<div class="pricing-content">
+                                  <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                              </div>-->
+                              <div class="pricingTable-signup">
+                                <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                              </div>
+                          </div>
+                      </div>
+                  <div class="col-md-2 col-sm-6">
+                        <div class="pricingTable11 red" >
+                          <img src="/tap00.png" alt=""  class="icon">
+                            <h3 class="heading">PLOMBERIE & CHAUFFAGE</h3>
+                            <!--<div class="pricing-content">
+                                <h3 class="list_tache">Fuite d'eau, baignaoire, lavabo, Robinet etc...</h3>
+                            </div>-->
+                            <div class="pricingTable-signup">
+                              <%= button_to "Obtenir un devis", services_path, class: "btn btn-default", :method => :get  %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
