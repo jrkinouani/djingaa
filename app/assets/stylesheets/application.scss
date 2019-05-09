@@ -1191,7 +1191,7 @@ section.pricing
 }
 
 .pricing .card-price .period {
-  font-size: 0.8rem;
+  font-size: 1.8rem;
 }
 
 .pricing ul li {
@@ -1204,14 +1204,21 @@ section.pricing
 
 .pricing .btn {
 
-  border-radius: 5rem;
 
   font-weight: bold;
   padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
 
+}
+.pricing .btn:hover
+{
+  background-color: #00293C;
+  border-color: #00293C;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+
+}
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
@@ -1253,4 +1260,52 @@ input.btn.btn-primary.text
     background-color: #F62A00;
     border-color: #F62A00;
     font-family: 'Roboto', sans-serif;
+}
+h3.content.about
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+    text-align: justify;
+    font-size: 94px;
+}
+#banner {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 55vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    z-index: 199;
+}
+.dimmer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 50;
+    background-color: rgba( 16, 15, 15, 0.35);
+    z-index: 1;
+}
+h1.jumbotron-heading
+{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 100px;
+		margin-left: 15px;
+		margin-right: 15px;
+		font-family: 'Roboto', sans-serif;
+		text-align: center!important;
+		font-weight: bold;
+}
+header {
+	 background-image: url("/tools.jpg");
+	 height: 700px;
+   width: 100%;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
