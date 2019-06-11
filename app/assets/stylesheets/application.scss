@@ -657,6 +657,11 @@ a.link_about:hover
     font-size: 18px;
     color: #00293C;
 }
+a.link_pro
+{
+    font-size: 18px;
+    color: #F62A00!important;
+}
 /* card page welcome */
 /******************* Pricing Table Demo - 11 *****************/
 .demo11
@@ -1327,4 +1332,11 @@ h3.text-form
   font-size:30px;
   color: #FFFFFF;
   margin-bottom: 30px;
+}
+  h6.card-title.text-center
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    color: #00293C;
+    margin-bottom: 30px;
 }

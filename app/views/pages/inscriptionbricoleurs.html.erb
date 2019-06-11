@@ -60,21 +60,24 @@
 
 <section class="pricing py-5">
   <div class="container">
-    <div class="row">
+    <div class="row ">
       <div class="text-center">
-        <h3 class="text-title-offre">Une offre unique pour tous les bricoleurs</h3>
+        <h3 class="text-title-offre">Optez pour la bonne offre selon vos envies</h3>
         <h3 class="offre">Commencez avec un mois gratuit !</h3>
 
       </div>
-      <div class="col-lg-offset-4 col-lg-4 ">
+      <div class="col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4  col-sm-6 ">
 
         <div class="card mb-5 mb-lg-0" style="padding-top:30px;padding-bottom:30px;background-color:#DCDCDC;">
           <div class="card-body">
+            <h6 class="card-title text-center">Bricoleurs</h6>
+
 
             <h6 class="card-price text-center">99 €<span class="period">/mois</span></h6>
             <hr>
             <ul class="fa-ul">
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Recevez un nombre de devis illimités</li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Facturation maxi 3000 € </li>
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Nous gérons le service après-vente</li>
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Vous êtes payé 48h après une mission</li>
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Garantie contre les impayés</li>
@@ -86,6 +89,30 @@
           </div>
         </div>
       </div>
+
+      <div class="col-lg-offset-2 col-lg-4  col-md-4 col-sm-6 ">
+
+        <div class="card mb-5 mb-lg-0" style="padding-top:30px;padding-bottom:30px;background-color:#DCDCDC;">
+          <div class="card-body">
+            <h6 class="card-title text-center">Professionnels</h6>
+            <h6 class="card-price text-center">99 €<span class="period">/mois</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Recevez un nombre de devis illimités</li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Facturation  minimum de 3000 € </li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Assurance multi-paiements </li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Nous gérons le service après-vente</li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Vous êtes payé 48h après une mission</li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Garantie contre les impayés</li>
+              <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Abonnement mensuel</li>
+            </ul>
+            <div class="text-center">
+              <%= button_to "Je m'inscris",  formulairepro_path, class: "btn btn-primary btn-lg", :method => :get%>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

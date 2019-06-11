@@ -39,6 +39,7 @@
            <ul class="nav navbar-nav navbar-right">
              <% if user_signed_in?  %>
              <li><%= link_to "Accueil", root_path, :class => "link_about"%></li>
+             <li><%= link_to "Inscription professionnels", inscriptionbricoleurs_path,  :class => "link_pro"%></li>
              <li><h4 class="link_about">Bienvenue !</h4></li>
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos services <b class="caret"></b></a>
@@ -78,6 +79,8 @@
 
                 <% else %>
                 <li><%= link_to "Accueil", root_path, :class => "link_about"%></li>
+                <li><%= link_to "Inscription professionnels", inscriptionbricoleurs_path, :class => "link_pro"  %></li>
+
                 <!--<li><%= link_to "S'inscrire",new_user_registration_path, class: "link_about" , :method => :get  %></li>
                 <li><%= link_to "Connexion ",  new_user_session_path, class: "link_about" %></li>-->
 
