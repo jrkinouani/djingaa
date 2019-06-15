@@ -15,11 +15,11 @@
 		<h5 class="headin5_amrc col_white_amrc pt2">NOS SERVICES</h5>
 		<!--headin5_amrc-->
 		<ul class="footer_ul_amrc">
-		<li><%= link_to "Devenir bricoleur" , inscriptionbricoleurs_path, :class => "about" %></li>
 		<!--<li><%= link_to "Faire un devis pour travaux" , new_estimate_path, :class => "about" %></li>
 		<li><%= link_to "Nos services", services_path, :class => "about" %></li>-->
+		<li><%= link_to "Rénovation", new_estimate_path, :class => "about"%></li>
 		<li><%= link_to "Plomberie", formulaireplomberie_path, :class => "about"%></li>
-		<li><%= link_to "Bricolage et rénovation", formulairebrico_path, :class => "about"%></li>
+		<li><%= link_to "Bricolage ", formulairebrico_path, :class => "about"%></li>
 		<li><%= link_to "Electroménager", formulaireelectromenager_path, :class => "about"%></li>
 		</ul>
 		<!--footer_ul_amrc ends here-->
@@ -29,6 +29,8 @@
 		<h5 class="headin5_amrc col_white_amrc pt2">INFORMATIONS</h5>
 		<!--headin5_amrc-->
 		<ul class="footer_ul_amrc">
+			<li><%= link_to "Devenir bricoleur" , inscriptionbricoleurs_path, :class => "about" %></li>
+			<li><%= link_to "Inscription professionnels", inscriptionbricoleurs_path, :class => "about"  %></li>
 			<li><%= link_to "Mode d'emploi", mode_emploi_path	, :class => "about" %></li>
 		<li><%= link_to "FAQ", faq_path, :class => "about" %></li>
 		<li><%= link_to "Conditions de vente", conditiondeventes_path, :class => "about" %></li>
