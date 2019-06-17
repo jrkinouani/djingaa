@@ -1090,6 +1090,30 @@ h1.title_mode
     font-size: 50px;
     margin-top: 200px;
 }
+h2.title_mode
+{
+    font-family: 'Roboto', sans-serif;
+    color: #F62A00;
+    font-size: 30px;
+    margin-top: 200px;
+}
+h3.title_img_pro
+{
+  font-family: 'Roboto', sans-serif;
+  color: #F62A00;
+  font-size: 18px;
+}
+h3.text-infos
+{
+  font-family: 'Roboto', sans-serif;
+  color: #00293C;
+  font-size: 18px;
+}
+input#btn.btn.btn-primary.btn-lg
+{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
 h3.title_engagerunpro
 {
 
@@ -1102,6 +1126,11 @@ h3.title_engagerunpro
   background-color: #DCDCDC;
   background-size: cover;
   padding-bottom: 60px;
+}
+#mypro.container-fluid {
+  background-color: #DCDCDC;
+  background-size: cover;
+  padding-bottom: 0px;
 }
 h4.sous-text
 {

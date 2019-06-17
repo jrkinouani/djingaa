@@ -1,0 +1,81 @@
+<div class="container-fluid" id="mypro" style="padding-bottom:10px!imoprtant;">
+  <div class="row">
+    <div class="text-center">
+      <h2 class="title_mode">Aménagement - Maintenance - Rénovation - Multi-technique  </h2>
+      <h3 class="title_engagerunpro">Réalisés par des professionnels pour des professionnels !</h3>
+      <!--<h4 class="sous-text">Ne perdez plus de temps dans la recherche de professionnels <br>
+        Djingaa selectionne pour vous les meilleurs experts <br> en travaux et bricolage de l'île de La Réunion
+      </h4>-->
+    </div>
+  </div>
+</div>
+<main role="main" class="container">
+
+    <div class="row">
+      <div class="text-center">
+        <h3 class="text-infos"> En vous proposant des prestations de services toujours plus adaptés à vos besoins ! <br>
+            Djingaa souhaite vous mettre en relation avec les professionnels les plus pointus dans leur corps de métier.
+        </h3>
+            <%= button_to "Trouvez un professionnel", new_estimate_path, class: "btn btn-primary btn-lg",id:"btn", :method => :get  %>
+      </div>
+    <div class=" col-md-4" style="margin-bottom:50px;">
+      <img src="/store.jpg" alt="" class="img-responsive" >
+      <div class="text-center">
+        <h3 class="title_img_pro">Rénover une boutique</h3>
+      </div>
+     </div>
+
+     <div class=" col-md-4" style="margin-bottom:50px;">
+       <img src="/case.jpg" alt="" class="img-responsive" >
+       <div class="text-center">
+         <h3 class="title_img_pro">Agrandir une maison</h3>
+       </div>
+      </div>
+
+      <div class=" col-md-4" style="margin-bottom:50px;">
+        <img src="/bureau.jpg" alt="" class="img-responsive" >
+        <div class="text-center">
+          <h3 class="title_img_pro">Aménager des bureaux </h3>
+        </div>
+       </div>
+    </div>
+</main>
+<main role="main" class="container">
+  <div class="jumbotron">
+    <div class="text-center">
+        <h2 class="title_main">Nos garanties</h2>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/handshake.png" alt=""  class="icon">
+        <h2 class="avantage">Bricoleurs sélectionnés</h2>
+        <h5>Tous nos bricoleurs sont auditionnés lors de leur inscription sur Djingaa.
+
+        </h5>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/euro.png" alt=""  class="icon">
+          <h2 class="avantage">Devis en ligne</h2>
+          <h5>Pas de frais supplémentaires une fois les missions réalisées.</h5>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/support.png" alt=""  class="icon">
+          <h2 class="avantage">Service client </h2>
+          <h5>Service client de 7h à 12h et de 14h à 17h du lundi au samedi</h5>
+      </div>
+    </div>
+
+  </div>
+</main>
+<div class="container">
+  <div class="text-center" style="padding-top:00px;">
+    <h4 class="text_how"> IL NE VOUS RESTE PLUS QU'À FAIRE RÉALISER VOS TRAVAUX !</h4>
+     <%= button_to "Trouvez un professionnel", new_estimate_path, class: "btn btn-primary btn-lg", :method => :get  %>
+  </div>
+</div>
