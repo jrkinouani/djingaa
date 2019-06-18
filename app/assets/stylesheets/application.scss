@@ -849,6 +849,20 @@ main.container
     margin-top: 100px;
     margin-bottom: 100px;
 }
+main#pro-pro.container
+{
+
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+main#pro.container
+{
+
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .jumbotron
 {
     background-color: #ffffff;
@@ -861,6 +875,13 @@ h2.avantage
     color: #00293C;
     font-size: 23px;
     margin-bottom: 20px;
+}
+h3.title_main
+{
+    font-family: 'Roboto', sans-serif!important;
+    color: #00293C;
+    font-size: 23px;
+    margin-bottom: 60px;
 }
 section
 {
