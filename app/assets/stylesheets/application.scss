@@ -1390,3 +1390,25 @@ h3.text-form
     color: #00293C;
     margin-bottom: 30px;
 }
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 4px solid #F62A00;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: #F62A00;
+    background: 0 0;
+}
+.btn-circle:hover {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 4px solid #FFF;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: #FFF;
+    background: 0 0;
+}

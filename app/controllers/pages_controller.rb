@@ -29,13 +29,17 @@ class PagesController < ApplicationController
 
   end
 
-  def inscriptionbricoleurs
-
-  end
-  def formulairepro
+  def inscriptions
 
   end
 
+  def inscriptionbricoleur
+
+  end
+
+  def inscriptionprofessionnel
+
+  end
   def formulairebrico
 
   end

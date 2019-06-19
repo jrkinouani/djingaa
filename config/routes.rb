@@ -28,8 +28,9 @@ Rails.application.routes.draw do
   get "/conditiondeventes" => "pages#ventes"
   get "/faq" => "pages#faq"
   get "/solutionsentreprises" => "pages#solutionsentreprises"
-  get '/inscriptionbricoleurs' => 'pages#inscriptionbricoleurs'
-  get '/formulairepro' => 'pages#formulairepro'
+  get '/inscriptions' => 'pages#inscriptions'
+  get '/inscriptionbricoleur' => 'pages#inscriptionbricoleur'
+  get '/inscriptionprofessionnel' => 'pages#inscriptionprofessionnel'
   get '/formulairebrico' => 'pages#formulairebrico'
   get '/formulairerenovation' => 'pages#formulairerenovation'
   get '/formulaireelectromenager' => 'pages#formulaireelectromenager'

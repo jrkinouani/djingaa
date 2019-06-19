@@ -5,7 +5,15 @@
           <span class="baseline">Nous trouvons vos futurs clients</span> <br>
         <h3 class="proposition_valeur_brico">Notre plateforme vous met en relation avec des particuliers.<br>Gagnez de l'argent en bricolant <br> quand vous voulez et où vous voulez.</h3>
       </div>
-       <%= button_to "Je m'inscris",  formulairepro_path, class: "btn btn-primary btn-lg", :method => :get,  style: "margin-bottom:180px"%>
+
+      <div class="row">
+   <div class="content_button">
+    <a href="#portfolio" class="btn btn-circle page-scroll">
+     <i class="fa fa-angle-double-down animated"></i>
+    </a>
+   </div>
+  </div>
+       <!--<%= button_to "Je m'inscris",  inscriptionbricoleur_path, class: "btn btn-primary btn-lg", id:"ancre", :method => :get,  style: "margin-bottom:180px"%>-->
     </div>
   </div>
 </header>
@@ -56,10 +64,10 @@
 
   </div>
   </div>
-</section>
-
-<section class="pricing py-5">
-  <div class="container">
+</section >
+<h6 id="portfolio"></h6>
+<section class="pricing py-5" >
+  <div class="container" >
     <div class="row ">
       <div class="text-center">
         <h3 class="text-title-offre">Optez pour la bonne offre selon vos envies</h3>
@@ -84,7 +92,7 @@
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Abonnement mensuel</li>
             </ul>
             <div class="text-center">
-              <%= button_to "Je m'inscris",  formulairepro_path, class: "btn btn-primary btn-lg", :method => :get%>
+              <%= button_to "Je m'inscris",  inscriptionbricoleur_path, class: "btn btn-primary btn-lg", :method => :get%>
             </div>
           </div>
         </div>
@@ -107,7 +115,7 @@
               <li class="card-pay"><span class="fa-li"><i class="fas fa-check"></i></span>Abonnement mensuel</li>
             </ul>
             <div class="text-center">
-              <%= button_to "Je m'inscris",  formulairepro_path, class: "btn btn-primary btn-lg", :method => :get%>
+              <%= button_to "Je m'inscris",  inscriptionprofessionnel_path, class: "btn btn-primary btn-lg", :method => :get%>
             </div>
           </div>
         </div>
