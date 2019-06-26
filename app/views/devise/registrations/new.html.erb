@@ -1,29 +1,81 @@
-<h2>Sign up</h2>
+<div class="container">
+<div class="row">
+  <div class=" col-md-4 "style="margin-top:80px;">
+    <h3>S'inscrire comme utilisateur</h3>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
+    <label>Votre Prénom</label><br />
+    <%= f.text_field :first_name, autofocus: true, class: "form-control", placeholder: " Dimitri" %>
+  </div>
+  <br>
+  <div class="field">
+      <label>Votre nom</label><br />
+    <%= f.text_field :last_name, autofocus: true, class: "form-control", placeholder: " Payet" %>
+  </div>
+  <br>
+  <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "ex: dimitripayet@gmail.com" %>
   </div>
-
+  <br>
   <div class="field">
-    <%= f.label :password %>
+    <label>Mot de passe</label>
     <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password", class: "form-control" %>
   </div>
-
+<br>
   <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+    <label>Confirmation mot de passe</label><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control" %>
   </div>
+<br>
+</div>
 
+<div class=" col-md-4 "style="margin-top:80px;">
+  <h3>Si vous êtes bricoleurs</h3>
+
+
+
+<div class="field">
+  <label>Votre Prénom</label><br />
+  <%= f.email_field :first_name, autofocus: true, autocomplete: "email", class: "form-control", placeholder: " Dimitri" %>
+</div>
+<br>
+<div class="field">
+    <label>Votre nom</label><br />
+  <%= f.email_field :last_name, autofocus: true, autocomplete: "email", class: "form-control", placeholder: " Payet" %>
+</div>
+<br>
+<div class="field">
+  <%= f.label :email %><br />
+  <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "ex: dimitripayet@gmail.com" %>
+</div>
+<br>
+<div class="field">
+  <label>Mot de passe</label>
+  <% if @minimum_password_length %>
+  <% end %><br />
+  <%= f.password_field :password, autocomplete: "new-password", class: "form-control" %>
+</div>
+<br>
+<div class="field">
+  <label>Confirmation mot de passe</label><br />
+  <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control" %>
+</div>
+<br>
+</div>
+<div class="col-md-offset-4 col-md-4 ">
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Sign up" ,class: "btn btn-primary"%>
   </div>
+</div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+<%= render "users/shared/links" %>
+
+
+</div></div>

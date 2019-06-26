@@ -1,25 +1,5 @@
 Rails.application.routes.draw do
 
-  devise_for :bricoleurs, path_names: {
-    sign_in: 'login',
-    sign_out: 'logout',
-    sign_up: 'signup',:controllers => {registrations:  "bricoleurs/registrations"}
-  }
-
-  devise_for :users, path_names: {
-      sign_in: 'login',
-      sign_out: 'logout',
-      sign_up: 'signup',}
-
-  devise_for :admins , path_names:{
-    sign_in: 'login',
-    sign_out: 'logout',
-    sign_up: 'signup',
-    :controllers => {registrations:  "admins/registrations"}
-  }
-
-
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :estimates
   root :to => 'pages#welcome'
   get "/about" => "pages#about"
