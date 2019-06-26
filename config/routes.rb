@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
+  devise_for :admins
   resources :estimates
   root :to => 'pages#welcome'
   get "/about" => "pages#about"
