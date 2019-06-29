@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
-  devise_for :admins
+  devise_for :admin
+  devise_for :users, :path => '',
+                    :path_names=> {:sign_in=>"login", :sign_out=>"logout", :edit=>"profil"},
+                    :controller=>{:confirmations=>"confirmation"}
+
+                    mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
+  resources :users, only: [:show]
+
+
   resources :estimates
   root :to => 'pages#welcome'
   get "/about" => "pages#about"

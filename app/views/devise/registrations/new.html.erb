@@ -1,35 +1,111 @@
 
 <div class="row">
-  <div class="col-lg-4 col-md-offset-4 text-center" style="margin-top:150px;">
+  <div class="col-lg-4 col-md-offset-4 text-center" style="margin-top:150px;margin-bottom:50px;">
 
-<h2>Sign up</h2>
-
+<h2>Inscription</h2>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-3 col-md-offset-3"  >
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  <label for="">Votre Prénom</label><br />
+    <%= f.text_field :first_name, autofocus: true, class:"form-control" %>
   </div>
 
+  <br>
+
   <div class="field">
-    <%= f.label :password %>
+    <label for="">Votre Nom</label><br />
+    <%= f.text_field :last_name, autofocus: true, class:"form-control" %>
+  </div>
+
+  <br>
+  <div class="field">
+    <label for="">Votre Numéro de téléphone</label><br />
+    <%= f.text_field :phone, autofocus: true, class:"form-control" %>
+  </div>
+
+  <br>
+  <div class="field">
+    <label for="">Votre adresse</label><br />
+    <%= f.text_area :address, autofocus: true, class:"form-control" %>
+  </div>
+
+  <br>
+
+  <div class="field">
+    <label for="">Votre Email</label><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control" %>
+  </div>
+
+  <br>
+
+  <div class="field">
+    <label for="">Votre mot de passe</label>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password" , class:"form-control" %>
   </div>
+
+  <br>
 
   <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+      <label for="">Votre mot de passe</label><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password" , class:"form-control"%>
   </div>
 
+  <br>
+</div>
+  <div class="col-md-3"  >
+    <div class="field">
+      <label for="">Votre Siret</label><br />
+      <%= f.text_field :siret, autofocus: true, autocomplete: "email", class:"form-control" %>
+    </div>
+    <h6><em style="color:red;">Informations obligatoires pour bricoleurs/professionnels</em></h6>
+    <br>
+    <div class="field">
+      <label for="">Quel est votre compétence ?</label><br />
+      <%= f.select :skill, ["selectionnez un domaine de compétence ", "Plomberie","Electroménager","Bricolage","Rénovation", "Multi-compétence"] ,{},{ :class => "form-control", placeholder:"Plombier"}%>
+    </div>
+    <h6><em style="color:red;">Informations obligatoires pour bricoleurs/professionnels</em></h6>
+
+    <br>
+    <div class="field">
+      <label for="">Quel est votre expérience ?</label><br />
+      <%= f.select :experience, ["selectionnez votre expérience", "moins de 2 ans","moins de 4 ans ","moins de 5 ans","plus de 6 ans"] ,{},{ :class => "form-control", placeholder:"Plombier"}%>
+    </div>
+    <h6><em style="color:red;">Informations obligatoires pour bricoleurs/professionnels</em></h6>
+
+    <br>
+    <div class="field">
+      <label for="">Avez-vous une garantie décennale ?</label><br />
+      <%= f.select :guarantee, ["selectionnez une réponse", "oui","non "] ,{},{ :class => "form-control", placeholder:"Plombier"}%>
+    </div>
+    <h6><em style="color:red;">Informations obligatoires pour bricoleurs/professionnels</em></h6>
+
+
+    <br>
+    <div class="field">
+      <label for="">Avez-vous le RC-PRO ?</label><br />
+      <%= f.select :rcpro, ["selectionnez une réponse", "oui","non "] ,{},{ :class => "form-control", placeholder:"Plombier"}%>
+    </div>
+    <h6><em style="color:red;">Informations obligatoires pour bricoleurs/professionnels</em></h6>
+
+  </div>
+</div>
+
+<div class="row" style="margin-bottom:50px;">
+  <div class="col-md-4 col-md-offset-4"  >
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Valider" , class: "btn btn-primary btn-lg  btn-block" %>
   </div>
 <% end %>
-
+<br>
 <%= render "devise/shared/links" %>
+
 </div>
 </div>
