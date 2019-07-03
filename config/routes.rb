@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
-  devise_for :admin
-  devise_for :users, :path => '',
-                    :path_names=> {:sign_in=>"login", :sign_out=>"logout", :edit=>"profil"},
-                    :controller=>{:confirmations=>"confirmation"}
+  devise_for :clients, :path => 'client',
+                    :path_names=> {:sign_in=>"login", :sign_out=>"logout", :edit=>"profil"}
+  devise_for :admins, :path => 'admin',
+                    :path_names=> {:sign_in=>"login", :sign_out=>"logout", :edit=>"profil"}
+  devise_for :users, :path => 'user',
+                    :path_names=> {:sign_in=>"login", :sign_out=>"logout", :edit=>"profil"}
 
                     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
