@@ -48,7 +48,7 @@
                 <li><%= link_to 'Modifier mon profil', edit_user_registration_path %></li>
               </ul>
             </li>
-               <li><%= link_to "Inscription professionnels", inscriptions_path,  :class => "link_pro"%></li>
+               <!--<li><%= link_to "Inscription professionnels", inscriptions_path,  :class => "link_pro"%></li>-->
                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos services <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -59,7 +59,7 @@
                 </ul>
               </li>
 
-                 <!--<li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>-->
+                 <li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_pro" %></li>
                   <li><%= link_to "Mode d'emploi", mode_emploi_path, :class => "link_about" %></li>
                   <li><%= link_to "FAQ", faq_path, :class => "link_about" %></li>
 
@@ -79,7 +79,7 @@
                 <li><%= link_to 'Inscription', new_user_registration_path %></li>
               </ul>
             </li>-->
-             <li><%= link_to "Inscription professionnels", inscriptions_path,  :class => "link_pro"%></li>
+             <!--<li><%= link_to "Inscription professionnels", inscriptions_path,  :class => "link_pro"%></li>-->
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos services <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -90,7 +90,7 @@
               </ul>
             </li>
 
-               <!--<li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_about" %></li>-->
+               <li><%= link_to "Solutions pour entreprises", solutionsentreprises_path, :class => "link_pro" %></li>
                 <li><%= link_to "Mode d'emploi", mode_emploi_path, :class => "link_about" %></li>
                 <li><%= link_to "FAQ", faq_path, :class => "link_about" %></li>
 
@@ -102,7 +102,7 @@
                   </ul>
                 </li>
                 <% end %>
-              <!--<li> <%= button_to "Devenir bricoleur", inscriptions_path, class: "btn btn-danger navbar-btn" , :method => :get  %></li>-->
+               <!--<li><%= button_to "Devenir bricoleur", inscriptions_path, class: "btn btn-primary btn-lg" , :method => :get  %></li>-->
            </ul>
          </div><!--/.nav-collapse -->
        </div><!--/.container-fluid -->

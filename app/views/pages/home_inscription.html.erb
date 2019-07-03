@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row" style="margin-top:150px;">
+    <div class="col-md-6">
+      <div class="jumbotron">
+        <div class="text-center">
+          <h3 class="text-pre-sign">Je suis client</h3>
+            <h5 class="why_text-pre-sign">et je veux trouver un bricoleur</h5>
+          <br>
+          <%= button_to "Inscription", inscriptions_path, class: "btn btn-primary btn-lg" , :method => :get  %>
+        </div>
+        <br><br>
+        <img src="/customer.jpg" alt="" class="responsive"style="height:100%"; width="100%">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="jumbotron">
+        <div class="text-center">
+          <h3 class="text-pre-sign">Je suis un bricoleur/professionnel</h3>
+          <h5 class="why_text-pre-sign">et je recherche des missions</h5>
+          <br>
+          <%= button_to "Inscription", inscriptions_path, class: "btn btn-primary btn-lg" , :method => :get  %>
+        </div>
+        <br><br>
+           <img src="/bricoleur.jpg" alt="" class="responsive"style="height:110%"; width="110%">
+      </div>
+    </div>
+  </div>
+</div>

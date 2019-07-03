@@ -33,6 +33,10 @@ class PagesController < ApplicationController
 
   end
 
+  def home_inscription
+
+  end
+
   def inscriptionbricoleur
 
   end
