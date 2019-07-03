@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show]
 
-
+  resources :charges
   resources :estimates
   root :to => 'pages#welcome'
   get "/about" => "pages#about"
