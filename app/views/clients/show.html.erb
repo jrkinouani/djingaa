@@ -2,15 +2,18 @@
   <div class="row">
     <div class="text-center">
       <h3>Bonjour <%= @client.first_name.capitalize %> ! <br> Djingaa te souhaitons une bonne journée</h3>
+      <br><br>
     </div>
       <div class="col-md-3">
           <div class="panel panel-default">
           <div class="panel-heading">Qui suis-je</div>
             <div class="panel-body">
-              <h4><%= @client.first_name.capitalize %> <%= @client.last_name.capitalize %></h4>              
+              <h4><%= @client.first_name.capitalize %> <%= @client.last_name.capitalize %></h4>
+              <h4><%= @client.phone %></h4>
 
               <br>
             </div>
+            <div class="panel-heading"><%= link_to 'Modifier mon profil', edit_client_registration_path %></div>
           </div>
       </div>
       </div>
