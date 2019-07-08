@@ -10,7 +10,7 @@ Rails.application.routes.draw do
                     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   resources :users, only: [:show]
-
+  resources :clients, only: [:show]
   resources :charges
   resources :estimates
   root :to => 'pages#welcome'
@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get "/faq" => "pages#faq"
   get "/solutionsentreprises" => "pages#solutionsentreprises"
   get '/inscriptions' => 'pages#inscriptions'
-  get 'home_inscription' => 'pages#home_inscription' 
+  get 'home_inscription' => 'pages#home_inscription'
   get '/inscriptionbricoleur' => 'pages#inscriptionbricoleur'
   get '/inscriptionprofessionnel' => 'pages#inscriptionprofessionnel'
   get '/formulairebrico' => 'pages#formulairebrico'
