@@ -3,6 +3,7 @@
     <div class="text-center">
       <h3>Bonjour <%= @user.first_name.capitalize %> ! <br> Djingaa te souhaitons une bonne journée</h3>
     </div>
+    <br><br>
       <div class="col-md-3">
           <div class="panel panel-default">
           <div class="panel-heading">Qui suis-je</div>
@@ -13,6 +14,8 @@
 
               <br>
             </div>
+            <div class="panel-heading"><%= link_to 'Modifier mon profil', edit_user_registration_path %></div>
+
           </div>
       </div>
       </div>
